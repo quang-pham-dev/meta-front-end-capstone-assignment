@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Dropdown > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="booking-form-field "
+  >
+    <label
+      class="booking-form-label "
+      for="test-dropdown"
+    >
+      Snapshot Test
+    </label>
+    <select
+      class="booking-form-input "
+      id="test-dropdown"
+    >
+      <option
+        value=""
+      >
+        Select an option
+      </option>
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

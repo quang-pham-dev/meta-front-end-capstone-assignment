@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Link > matches snapshot 1`] = `
+<DocumentFragment>
+  <a
+    class=""
+    href="/products"
+  >
+    Products
+  </a>
+</DocumentFragment>
+`;

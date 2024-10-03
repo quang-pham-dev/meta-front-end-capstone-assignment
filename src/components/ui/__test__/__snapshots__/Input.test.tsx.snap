@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input > matches snapshot 1`] = `
+<DocumentFragment>
+  <input
+    class=""
+    placeholder="Enter email"
+    type="email"
+  />
+</DocumentFragment>
+`;

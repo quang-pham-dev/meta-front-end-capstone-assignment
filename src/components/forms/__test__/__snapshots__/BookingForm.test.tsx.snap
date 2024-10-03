@@ -1,0 +1,132 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BookingForm > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="booking-form-container"
+  >
+    <form>
+      <fieldset>
+        <div
+          class="booking-form-field "
+        >
+          <label
+            class="booking-form-label "
+            for="book-date"
+          >
+            Choose Date:
+          </label>
+          <input
+            aria-label="Choose date"
+            class="booking-form-input "
+            id="book-date"
+            name="date"
+            required=""
+            type="date"
+            value=""
+          />
+        </div>
+        <div
+          class="booking-form-field "
+        >
+          <label
+            class="booking-form-label "
+            for="book-time"
+          >
+            Choose Time:
+          </label>
+          <select
+            aria-label="Choose time"
+            class="booking-form-input "
+            id="book-time"
+            name="time"
+            required=""
+          >
+            <option
+              value=""
+            >
+              Select an option
+            </option>
+            <option
+              value="17:00"
+            >
+              17:00
+            </option>
+            <option
+              value="18:00"
+            >
+              18:00
+            </option>
+            <option
+              value="19:00"
+            >
+              19:00
+            </option>
+          </select>
+        </div>
+        <div
+          class="booking-form-field "
+        >
+          <label
+            class="booking-form-label "
+            for="book-guests"
+          >
+            Number of guests:
+          </label>
+          <input
+            aria-label="Number of guests"
+            class="booking-form-input "
+            id="book-guests"
+            max="10"
+            min="1"
+            name="guests"
+            required=""
+            type="number"
+            value=""
+          />
+        </div>
+        <div
+          class="booking-form-field "
+        >
+          <label
+            class="booking-form-label "
+            for="book-occasion"
+          >
+            Occasion:
+          </label>
+          <select
+            aria-label="Choose occasion"
+            class="booking-form-input "
+            id="book-occasion"
+            name="occasion"
+            required=""
+          >
+            <option
+              value=""
+            >
+              Select an option
+            </option>
+            <option
+              value="Birthday"
+            >
+              Birthday
+            </option>
+            <option
+              value="Anniversary"
+            >
+              Anniversary
+            </option>
+          </select>
+        </div>
+        <button
+          aria-label="Make Your Reservation"
+          class="button button--default button--medium button-receive"
+          type="submit"
+        >
+          Make Your Reservation
+        </button>
+      </fieldset>
+    </form>
+  </div>
+</DocumentFragment>
+`;
