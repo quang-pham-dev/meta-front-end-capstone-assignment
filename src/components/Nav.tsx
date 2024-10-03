@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 
 import { Link } from "@/components/ui/Link";
-import Logo from "@/assets/images/Logo.svg";
+import Logo from "@/assets/images/logo.svg";
 import { ROUTES, NAVIGATION } from "@/constants";
 
 const Nav = () => {
