@@ -4,6 +4,13 @@
   --text-color: #333;
   --background-light: #edefee;
   --background-dark: #333333;
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --padding-small: 6px;
+  --padding-medium: 10px;
+  --padding-large: 14px;
+  --border-radius: 4px;
 }
 
 body {
@@ -110,8 +117,8 @@ h3 {
   cursor: pointer;
   border: none;
   text-decoration: none;
-  border-radius: 12px;
-  font-size: 20px;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-large);
   font-weight: bold;
 }
 
@@ -150,18 +157,18 @@ h3 {
 
 /* Sizes */
 .button--small {
-  padding: 6px 12px;
-  font-size: 14px;
+  padding: var(--padding-small) calc(var(--padding-small) * 2);
+  font-size: var(--font-size-small);
 }
 
 .button--medium {
-  padding: 10px 16px;
-  font-size: 16px;
+  padding: var(--padding-medium) calc(var(--padding-medium) * 1.6);
+  font-size: var(--font-size-medium);
 }
 
 .button--large {
-  padding: 14px 20px;
-  font-size: 20px;
+  padding: var(--padding-large) calc(var(--padding-large) * 1.4);
+  font-size: var(--font-size-large);
 }
 
 /* Hover states */
@@ -290,6 +297,10 @@ label {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+.menu-content .price {
+  font-weight: bold;
 }
 
 .menu-content p {

@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NumberOfGuestInput > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="booking-form-field "
+  >
+    <label
+      class="booking-form-label "
+    >
+      Number of guests:
+    </label>
+    <input
+      class="booking-form-input "
+      max="10"
+      min="1"
+      type="number"
+    />
+  </div>
+</DocumentFragment>
+`;
