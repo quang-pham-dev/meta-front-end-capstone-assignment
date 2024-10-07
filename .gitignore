@@ -51,3 +51,5 @@ coverage
 # Misc
 *.local
 .eslintcache
+
+*storybook.log
