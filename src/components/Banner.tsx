@@ -25,7 +25,7 @@ const Banner = () => {
         </div>
 
         <div className="banner-img">
-          <img src={banner} alt="banner-image" />
+          <img src={banner} alt="banner-image" width={400} height={400} />
         </div>
       </section>
     </header>

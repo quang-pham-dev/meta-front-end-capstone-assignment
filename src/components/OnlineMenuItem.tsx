@@ -18,7 +18,7 @@ const OnlineMenuItem: React.FC<OnlineMenuItemProps> = ({
 
   const handleOrderNow = useCallback(() => {
     onOrder?.(recipe);
-  }, []);
+  }, [onOrder, recipe]);
 
   return (
     <div className="menu-items">
@@ -26,7 +26,7 @@ const OnlineMenuItem: React.FC<OnlineMenuItemProps> = ({
       <div className="menu-content">
         <div className="heading">
           <h3>{title}</h3>
-          <p>${price.toFixed(2)}</p>
+          <span className="price">${price.toFixed(2)}</span>
         </div>
         <p>{description}</p>
 
